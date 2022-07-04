@@ -18,6 +18,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  color: #293a3a;
+  font-size: 30px;
+  font-weight: 700;
+}
 .introduction-area {
   width: 100%;
   height: 1000px;
@@ -44,6 +49,31 @@ h2 {
 }
 
 .cattle-group {
-  width: 20%;
-  margin: 10px 2.5%;
+  width: 90%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px gray;
+  /* text-align: center; */
+  /* margin: 10px 2%; */
+}
+
+.cattle-name {
+  margin-right: 50px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(129, 49, 29);
+}
+
+.group-format {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.cattle-section {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px gray;
 }
